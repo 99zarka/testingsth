@@ -117,11 +117,13 @@ buttonGenerate.addEventListener('click',()=>{
 
 userfeelings.value="https://192.168.1.102:8080/video"
 userfeelings.addEventListener('change',()=>{
+  browserVideo.setAttribute('src','')
   browserVideo.setAttribute('src',userfeelings.value)
 //alert(userfeelings.value)
   
   
 });
 buttonGenerate.addEventListener('click',()=>{
+  browserVideo.setAttribute('src','')
   browserVideo.setAttribute('src',userfeelings.value)
 });
