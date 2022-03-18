@@ -122,3 +122,6 @@ userfeelings.addEventListener('change',()=>{
   
   
 });
+buttonGenerate.addEventListener('click',()=>{
+  browserVideo.setAttribute('src',userfeelings.value)
+});
